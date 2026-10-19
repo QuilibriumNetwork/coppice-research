@@ -1,0 +1,150 @@
+{
+  "encoding": [
+    {
+      "hex": "6e",
+      "python_value": "None"
+    },
+    {
+      "hex": "66",
+      "python_value": "False"
+    },
+    {
+      "hex": "74",
+      "python_value": "True"
+    },
+    {
+      "hex": "690000000000000000",
+      "python_value": "0"
+    },
+    {
+      "hex": "69ffffffffffffffff",
+      "python_value": "18446744073709551615"
+    },
+    {
+      "hex": "6200000000",
+      "python_value": "b''"
+    },
+    {
+      "hex": "6200000003616263",
+      "python_value": "b'abc'"
+    },
+    {
+      "hex": "7300000007636f7070696365",
+      "python_value": "'coppice'"
+    },
+    {
+      "hex": "6c0000000362000000016169000000000000000774",
+      "python_value": "(b'a', 7, True)"
+    },
+    {
+      "hex": "6400000002730000000161690000000000000001730000000162690000000000000002",
+      "python_value": "{'b': 2, 'a': 1}"
+    }
+  ],
+  "format": "coppice-research-1; candidate tagged encoding, NOT a production wire format",
+  "header_material": [
+    {
+      "ciphertext": "666972737420656e6372797074656420626f6479",
+      "key_nonce": "a568af2ac7d878176fd8a11bfc33544b5193cfa074c11741f6fb248b864d70050f969706f46f94c73f4050e1"
+    },
+    {
+      "ciphertext": "7365636f6e6420656e6372797074656420626f6479",
+      "key_nonce": "73664891259d0188c3d369a6451c029e97b80651e17e7afd90c562a2ad36df758d6efcc5e753db1cccf699d0"
+    }
+  ],
+  "merkle": {
+    "context": "726573656172636820766563746f7220636f6e74657874",
+    "count": 3,
+    "leaves": [
+      "690000000000000000",
+      "690000000000000001",
+      "690000000000000002"
+    ],
+    "paths": [
+      [
+        "4c443e692b1d83f87f98cbba7f2f0c6bbcc96ce7573a3a9099d7e589ac9e3f56",
+        "62e0a90b5dea7c96ec3d9da4800c7880baae767e3c05b14453cc84416257e408"
+      ],
+      [
+        "4460bae141edce26204443b982403112447e680981e8ad9fba004cebd86eee99",
+        "62e0a90b5dea7c96ec3d9da4800c7880baae767e3c05b14453cc84416257e408"
+      ],
+      [
+        "9057b453a491ad65c65c137f940690b0e9d089b0bcb7ca7e7d041c8ae09b840f",
+        "30abed5dff362b6776086fa40d4f22e500244b5dcec8b00d9cf22728620697cc"
+      ]
+    ],
+    "root": "776859c28d8381f625dd0bbb177f9a9eb9b5cd3500a938891f9ca54a75957e92"
+  },
+  "secret_tree": {
+    "era": "726573656172636820766563746f7220657261",
+    "leaves": 5,
+    "openings": [
+      {
+        "frontier": [
+          [
+            1,
+            1,
+            "ca699f90e0a39f00b48bcda7779c35fcccae6a842d71c34ef052403e81dd081c"
+          ],
+          [
+            2,
+            1,
+            "fbb4dd03a04770ee412f2036a8e8d39f19022d6f1e2153c36875561322b5b5bc"
+          ],
+          [
+            3,
+            1,
+            "48545eb5f2081be6b0e708a94164da9edf12d3c1fd183459fd1aef8301be7caa"
+          ]
+        ],
+        "index": 0,
+        "leaf": "86ed8e47947782280b1662ed6252506bddafff2bb63085110fd730a9396c3dcb"
+      },
+      {
+        "frontier": [
+          [
+            2,
+            1,
+            "fbb4dd03a04770ee412f2036a8e8d39f19022d6f1e2153c36875561322b5b5bc"
+          ],
+          [
+            3,
+            1,
+            "48545eb5f2081be6b0e708a94164da9edf12d3c1fd183459fd1aef8301be7caa"
+          ]
+        ],
+        "index": 4,
+        "leaf": "e7edd373b59038c0da93456f4a17a306b4141cb6bfa0f76f7fd57e751ed25844"
+      },
+      {
+        "frontier": [
+          [
+            2,
+            1,
+            "fbb4dd03a04770ee412f2036a8e8d39f19022d6f1e2153c36875561322b5b5bc"
+          ]
+        ],
+        "index": 1,
+        "leaf": "48545eb5f2081be6b0e708a94164da9edf12d3c1fd183459fd1aef8301be7caa"
+      },
+      {
+        "frontier": [
+          [
+            3,
+            2,
+            "0347eb9284b09e7a3ff84b5baf2de83c177324375f2029a0d17ed586760f2cc5"
+          ]
+        ],
+        "index": 3,
+        "leaf": "d950d78d598f8bdfe35f8b638d3a9e3d83ceb9f8fca649709b80fb65806191d5"
+      },
+      {
+        "frontier": [],
+        "index": 2,
+        "leaf": "0347eb9284b09e7a3ff84b5baf2de83c177324375f2029a0d17ed586760f2cc5"
+      }
+    ],
+    "seed": "7373737373737373737373737373737373737373737373737373737373737373"
+  }
+}

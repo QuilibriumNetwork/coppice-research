@@ -1,0 +1,1005 @@
+{
+  "comparisons": [
+    {
+      "all_modeled_control_traffic_including_setup": {
+        "download_bytes": 33391104,
+        "peak_device_download_bytes": 8592256,
+        "peak_device_upload_bytes": 6697600,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 18205312
+      },
+      "all_modeled_device_traffic_including_setup": {
+        "download_bytes": 33437184,
+        "peak_device_download_bytes": 8592256,
+        "peak_device_upload_bytes": 6786176,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 18299648
+      },
+      "busy_sender_needed_backlog": true,
+      "counts": "serialized research requests/responses with 128-byte request/response padding",
+      "days_offline": 7,
+      "devices_final": 1000,
+      "devices_initial": 1000,
+      "directory_slot_capacity": 1024,
+      "eligible_producers": 1,
+      "first_current_send_succeeded": true,
+      "first_message_submission": {
+        "categories": {
+          "publish": [
+            1152,
+            0
+          ]
+        },
+        "download_bytes": 0,
+        "round_trips": 1,
+        "upload_bytes": 1152
+      },
+      "genesis_directory_hash_nodes": 2047,
+      "maximum_raw_private_inventory_after_provisioning": 3702,
+      "membership_transitions": 2,
+      "mode": "direct",
+      "new_directory_hash_nodes_per_transition": [
+        0,
+        0
+      ],
+      "online_receivers_during_absence": {
+        "download_bytes": 16623360,
+        "peak_device_download_bytes": 16640,
+        "peak_device_upload_bytes": 1536,
+        "upload_bytes": 1534464
+      },
+      "participant_actions_required_at_return": 0,
+      "provisioning_all_devices": {
+        "download_bytes": 4731264,
+        "peak_device_download_bytes": 4731264,
+        "peak_device_upload_bytes": 264960,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 9471744
+      },
+      "resume_control": {
+        "categories": {
+          "fetch": [
+            128,
+            5248
+          ],
+          "fetch batch": [
+            256,
+            1664
+          ],
+          "finality": [
+            128,
+            896
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 8320,
+        "round_trips": 4,
+        "upload_bytes": 768
+      },
+      "returning_device_provisioning": {
+        "categories": {
+          "publish": [
+            9216,
+            0
+          ]
+        },
+        "download_bytes": 0,
+        "round_trips": 5,
+        "upload_bytes": 9216
+      },
+      "returning_device_storage_after_provisioning": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 3702,
+        "ticket_metadata_bytes": 521,
+        "unused_tickets": 3
+      },
+      "returning_device_storage_after_return": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 1234,
+        "ticket_metadata_bytes": 595,
+        "unused_tickets": 1
+      },
+      "returning_device_storage_before_absence": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 2468,
+        "ticket_metadata_bytes": 558,
+        "unused_tickets": 2
+      },
+      "scenario": "unchanged membership, fresh entries",
+      "separate_current_reception": {
+        "categories": {
+          "fetch": [
+            4352,
+            45568
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 46080,
+        "round_trips": 35,
+        "upload_bytes": 4608
+      },
+      "shard_size": 64,
+      "tickets_per_subset_per_producer": 3,
+      "transition_authors_during_absence": {
+        "download_bytes": 2557440,
+        "peak_device_download_bytes": 2557440,
+        "peak_device_upload_bytes": 3850240,
+        "upload_bytes": 3850240
+      },
+      "wraps_per_transition": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "all_modeled_control_traffic_including_setup": {
+        "download_bytes": 43284224,
+        "peak_device_download_bytes": 5017216,
+        "peak_device_upload_bytes": 1154304,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 16881024
+      },
+      "all_modeled_device_traffic_including_setup": {
+        "download_bytes": 43330304,
+        "peak_device_download_bytes": 5017216,
+        "peak_device_upload_bytes": 1242880,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 16975360
+      },
+      "busy_sender_needed_backlog": true,
+      "counts": "serialized research requests/responses with 128-byte request/response padding",
+      "days_offline": 7,
+      "devices_final": 1000,
+      "devices_initial": 1000,
+      "directory_slot_capacity": 1024,
+      "eligible_producers": 1,
+      "first_current_send_succeeded": true,
+      "first_message_submission": {
+        "categories": {
+          "publish": [
+            1152,
+            0
+          ]
+        },
+        "download_bytes": 0,
+        "round_trips": 1,
+        "upload_bytes": 1152
+      },
+      "genesis_directory_hash_nodes": 2047,
+      "maximum_raw_private_inventory_after_provisioning": 7404,
+      "membership_transitions": 2,
+      "mode": "shard",
+      "new_directory_hash_nodes_per_transition": [
+        0,
+        0
+      ],
+      "online_receivers_during_absence": {
+        "download_bytes": 16367616,
+        "peak_device_download_bytes": 16384,
+        "peak_device_upload_bytes": 1536,
+        "upload_bytes": 1534464
+      },
+      "participant_actions_required_at_return": 0,
+      "provisioning_all_devices": {
+        "download_bytes": 18786816,
+        "peak_device_download_bytes": 4935168,
+        "peak_device_upload_bytes": 401792,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 13827584
+      },
+      "resume_control": {
+        "categories": {
+          "fetch": [
+            128,
+            5248
+          ],
+          "fetch batch": [
+            256,
+            1536
+          ],
+          "finality": [
+            128,
+            896
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 8192,
+        "round_trips": 4,
+        "upload_bytes": 768
+      },
+      "returning_device_provisioning": {
+        "categories": {
+          "fetch": [
+            256,
+            12160
+          ],
+          "publish": [
+            11264,
+            0
+          ]
+        },
+        "download_bytes": 12160,
+        "round_trips": 8,
+        "upload_bytes": 11520
+      },
+      "returning_device_storage_after_provisioning": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 7404,
+        "ticket_metadata_bytes": 1017,
+        "unused_tickets": 6
+      },
+      "returning_device_storage_after_return": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 4936,
+        "ticket_metadata_bytes": 1091,
+        "unused_tickets": 4
+      },
+      "returning_device_storage_before_absence": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 6170,
+        "ticket_metadata_bytes": 1054,
+        "unused_tickets": 5
+      },
+      "scenario": "unchanged membership, fresh entries",
+      "separate_current_reception": {
+        "categories": {
+          "fetch": [
+            4352,
+            45568
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 46080,
+        "round_trips": 35,
+        "upload_bytes": 4608
+      },
+      "shard_size": 64,
+      "tickets_per_subset_per_producer": 3,
+      "transition_authors_during_absence": {
+        "download_bytes": 38400,
+        "peak_device_download_bytes": 38400,
+        "peak_device_upload_bytes": 63488,
+        "upload_bytes": 63488
+      },
+      "wraps_per_transition": [
+        16,
+        16
+      ]
+    },
+    {
+      "all_modeled_control_traffic_including_setup": {
+        "download_bytes": 161227648,
+        "peak_device_download_bytes": 11770240,
+        "peak_device_upload_bytes": 3180032,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 70065920
+      },
+      "all_modeled_device_traffic_including_setup": {
+        "download_bytes": 161273728,
+        "peak_device_download_bytes": 11770240,
+        "peak_device_upload_bytes": 3268608,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 70160256
+      },
+      "busy_sender_needed_backlog": true,
+      "counts": "serialized research requests/responses with 128-byte request/response padding",
+      "days_offline": 7,
+      "devices_final": 1000,
+      "devices_initial": 1000,
+      "directory_slot_capacity": 1024,
+      "eligible_producers": 1,
+      "first_current_send_succeeded": true,
+      "first_message_submission": {
+        "categories": {
+          "publish": [
+            1152,
+            0
+          ]
+        },
+        "download_bytes": 0,
+        "round_trips": 1,
+        "upload_bytes": 1152
+      },
+      "genesis_directory_hash_nodes": 2047,
+      "maximum_raw_private_inventory_after_provisioning": 40722,
+      "membership_transitions": 2,
+      "mode": "tree",
+      "new_directory_hash_nodes_per_transition": [
+        0,
+        0
+      ],
+      "online_receivers_during_absence": {
+        "download_bytes": 16111872,
+        "peak_device_download_bytes": 16128,
+        "peak_device_upload_bytes": 2048,
+        "upload_bytes": 2045952
+      },
+      "participant_actions_required_at_return": 0,
+      "provisioning_all_devices": {
+        "download_bytes": 137171712,
+        "peak_device_download_bytes": 11746176,
+        "peak_device_upload_bytes": 2502016,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 66320000
+      },
+      "resume_control": {
+        "categories": {
+          "fetch": [
+            128,
+            5248
+          ],
+          "fetch batch": [
+            512,
+            1408
+          ],
+          "finality": [
+            128,
+            896
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 8064,
+        "round_trips": 4,
+        "upload_bytes": 1024
+      },
+      "returning_device_provisioning": {
+        "categories": {
+          "fetch": [
+            2048,
+            97152
+          ],
+          "publish": [
+            25600,
+            0
+          ]
+        },
+        "download_bytes": 97152,
+        "round_trips": 29,
+        "upload_bytes": 27648
+      },
+      "returning_device_storage_after_provisioning": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 33318,
+        "ticket_metadata_bytes": 4489,
+        "unused_tickets": 27
+      },
+      "returning_device_storage_after_return": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 30850,
+        "ticket_metadata_bytes": 4563,
+        "unused_tickets": 25
+      },
+      "returning_device_storage_before_absence": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 32084,
+        "ticket_metadata_bytes": 4526,
+        "unused_tickets": 26
+      },
+      "scenario": "unchanged membership, fresh entries",
+      "separate_current_reception": {
+        "categories": {
+          "fetch": [
+            4352,
+            45568
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 46080,
+        "round_trips": 35,
+        "upload_bytes": 4608
+      },
+      "shard_size": 64,
+      "tickets_per_subset_per_producer": 3,
+      "transition_authors_during_absence": {
+        "download_bytes": 0,
+        "peak_device_download_bytes": 0,
+        "peak_device_upload_bytes": 13312,
+        "upload_bytes": 13312
+      },
+      "wraps_per_transition": [
+        1,
+        1
+      ]
+    },
+    {
+      "all_modeled_control_traffic_including_setup": {
+        "download_bytes": 33362304,
+        "peak_device_download_bytes": 8588416,
+        "peak_device_upload_bytes": 6700032,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 18205440
+      },
+      "all_modeled_device_traffic_including_setup": {
+        "download_bytes": 33408384,
+        "peak_device_download_bytes": 8588416,
+        "peak_device_upload_bytes": 6788608,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 18299776
+      },
+      "busy_sender_needed_backlog": true,
+      "counts": "serialized research requests/responses with 128-byte request/response padding",
+      "days_offline": 7,
+      "devices_final": 998,
+      "devices_initial": 1000,
+      "directory_slot_capacity": 1024,
+      "eligible_producers": 1,
+      "first_current_send_succeeded": true,
+      "first_message_submission": {
+        "categories": {
+          "publish": [
+            1152,
+            0
+          ]
+        },
+        "download_bytes": 0,
+        "round_trips": 1,
+        "upload_bytes": 1152
+      },
+      "genesis_directory_hash_nodes": 2047,
+      "maximum_raw_private_inventory_after_provisioning": 3702,
+      "membership_transitions": 2,
+      "mode": "direct",
+      "new_directory_hash_nodes_per_transition": [
+        11,
+        11
+      ],
+      "online_receivers_during_absence": {
+        "download_bytes": 16598400,
+        "peak_device_download_bytes": 16640,
+        "peak_device_upload_bytes": 1536,
+        "upload_bytes": 1532160
+      },
+      "participant_actions_required_at_return": 0,
+      "provisioning_all_devices": {
+        "download_bytes": 4731264,
+        "peak_device_download_bytes": 4731264,
+        "peak_device_upload_bytes": 264960,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 9471744
+      },
+      "resume_control": {
+        "categories": {
+          "fetch": [
+            128,
+            5248
+          ],
+          "fetch batch": [
+            256,
+            1664
+          ],
+          "finality": [
+            128,
+            896
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 8320,
+        "round_trips": 4,
+        "upload_bytes": 768
+      },
+      "returning_device_provisioning": {
+        "categories": {
+          "publish": [
+            9216,
+            0
+          ]
+        },
+        "download_bytes": 0,
+        "round_trips": 5,
+        "upload_bytes": 9216
+      },
+      "returning_device_storage_after_provisioning": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 3702,
+        "ticket_metadata_bytes": 521,
+        "unused_tickets": 3
+      },
+      "returning_device_storage_after_return": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 1234,
+        "ticket_metadata_bytes": 595,
+        "unused_tickets": 1
+      },
+      "returning_device_storage_before_absence": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 2468,
+        "ticket_metadata_bytes": 558,
+        "unused_tickets": 2
+      },
+      "scenario": "spread removals",
+      "separate_current_reception": {
+        "categories": {
+          "fetch": [
+            4352,
+            45568
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 46080,
+        "round_trips": 35,
+        "upload_bytes": 4608
+      },
+      "shard_size": 64,
+      "tickets_per_subset_per_producer": 3,
+      "transition_authors_during_absence": {
+        "download_bytes": 2553600,
+        "peak_device_download_bytes": 2553600,
+        "peak_device_upload_bytes": 3852672,
+        "upload_bytes": 3852672
+      },
+      "wraps_per_transition": [
+        999,
+        998
+      ]
+    },
+    {
+      "all_modeled_control_traffic_including_setup": {
+        "download_bytes": 43753216,
+        "peak_device_download_bytes": 5255552,
+        "peak_device_upload_bytes": 1517824,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 17242240
+      },
+      "all_modeled_device_traffic_including_setup": {
+        "download_bytes": 43799296,
+        "peak_device_download_bytes": 5255552,
+        "peak_device_upload_bytes": 1606400,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 17336576
+      },
+      "busy_sender_needed_backlog": true,
+      "counts": "serialized research requests/responses with 128-byte request/response padding",
+      "days_offline": 7,
+      "devices_final": 998,
+      "devices_initial": 1000,
+      "directory_slot_capacity": 1024,
+      "eligible_producers": 1,
+      "first_current_send_succeeded": true,
+      "first_message_submission": {
+        "categories": {
+          "publish": [
+            1152,
+            0
+          ]
+        },
+        "download_bytes": 0,
+        "round_trips": 1,
+        "upload_bytes": 1152
+      },
+      "genesis_directory_hash_nodes": 2047,
+      "maximum_raw_private_inventory_after_provisioning": 7404,
+      "membership_transitions": 2,
+      "mode": "shard",
+      "new_directory_hash_nodes_per_transition": [
+        11,
+        11
+      ],
+      "online_receivers_during_absence": {
+        "download_bytes": 16598400,
+        "peak_device_download_bytes": 16640,
+        "peak_device_upload_bytes": 1536,
+        "upload_bytes": 1532160
+      },
+      "participant_actions_required_at_return": 0,
+      "provisioning_all_devices": {
+        "download_bytes": 18786816,
+        "peak_device_download_bytes": 4935168,
+        "peak_device_upload_bytes": 401792,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 13827584
+      },
+      "resume_control": {
+        "categories": {
+          "fetch": [
+            128,
+            5248
+          ],
+          "fetch batch": [
+            256,
+            1664
+          ],
+          "finality": [
+            128,
+            896
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 8320,
+        "round_trips": 4,
+        "upload_bytes": 768
+      },
+      "returning_device_provisioning": {
+        "categories": {
+          "fetch": [
+            256,
+            12160
+          ],
+          "publish": [
+            11264,
+            0
+          ]
+        },
+        "download_bytes": 12160,
+        "round_trips": 8,
+        "upload_bytes": 11520
+      },
+      "returning_device_storage_after_provisioning": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 7404,
+        "ticket_metadata_bytes": 1017,
+        "unused_tickets": 6
+      },
+      "returning_device_storage_after_return": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 4936,
+        "ticket_metadata_bytes": 1091,
+        "unused_tickets": 4
+      },
+      "returning_device_storage_before_absence": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 6170,
+        "ticket_metadata_bytes": 1054,
+        "unused_tickets": 5
+      },
+      "scenario": "spread removals",
+      "separate_current_reception": {
+        "categories": {
+          "fetch": [
+            4352,
+            45568
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 46080,
+        "round_trips": 35,
+        "upload_bytes": 4608
+      },
+      "shard_size": 64,
+      "tickets_per_subset_per_producer": 3,
+      "transition_authors_during_absence": {
+        "download_bytes": 276480,
+        "peak_device_download_bytes": 276480,
+        "peak_device_upload_bytes": 427008,
+        "upload_bytes": 427008
+      },
+      "wraps_per_transition": [
+        78,
+        140
+      ]
+    },
+    {
+      "all_modeled_control_traffic_including_setup": {
+        "download_bytes": 161490944,
+        "peak_device_download_bytes": 11802496,
+        "peak_device_upload_bytes": 3232256,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 70115072
+      },
+      "all_modeled_device_traffic_including_setup": {
+        "download_bytes": 161537024,
+        "peak_device_download_bytes": 11802496,
+        "peak_device_upload_bytes": 3320832,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 70209408
+      },
+      "busy_sender_needed_backlog": true,
+      "counts": "serialized research requests/responses with 128-byte request/response padding",
+      "days_offline": 7,
+      "devices_final": 998,
+      "devices_initial": 1000,
+      "directory_slot_capacity": 1024,
+      "eligible_producers": 1,
+      "first_current_send_succeeded": true,
+      "first_message_submission": {
+        "categories": {
+          "publish": [
+            1152,
+            0
+          ]
+        },
+        "download_bytes": 0,
+        "round_trips": 1,
+        "upload_bytes": 1152
+      },
+      "genesis_directory_hash_nodes": 2047,
+      "maximum_raw_private_inventory_after_provisioning": 40722,
+      "membership_transitions": 2,
+      "mode": "tree",
+      "new_directory_hash_nodes_per_transition": [
+        11,
+        11
+      ],
+      "online_receivers_during_absence": {
+        "download_bytes": 16343040,
+        "peak_device_download_bytes": 16384,
+        "peak_device_upload_bytes": 2048,
+        "upload_bytes": 2042880
+      },
+      "participant_actions_required_at_return": 0,
+      "provisioning_all_devices": {
+        "download_bytes": 137171712,
+        "peak_device_download_bytes": 11746176,
+        "peak_device_upload_bytes": 2502016,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 66320000
+      },
+      "resume_control": {
+        "categories": {
+          "fetch": [
+            128,
+            5248
+          ],
+          "fetch batch": [
+            512,
+            1536
+          ],
+          "finality": [
+            128,
+            896
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 8192,
+        "round_trips": 4,
+        "upload_bytes": 1024
+      },
+      "returning_device_provisioning": {
+        "categories": {
+          "fetch": [
+            2048,
+            97152
+          ],
+          "publish": [
+            25600,
+            0
+          ]
+        },
+        "download_bytes": 97152,
+        "round_trips": 29,
+        "upload_bytes": 27648
+      },
+      "returning_device_storage_after_provisioning": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 33318,
+        "ticket_metadata_bytes": 4489,
+        "unused_tickets": 27
+      },
+      "returning_device_storage_after_return": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 30850,
+        "ticket_metadata_bytes": 4563,
+        "unused_tickets": 25
+      },
+      "returning_device_storage_before_absence": {
+        "pending_enrollment_private_bytes": 0,
+        "producer_catalog_bytes": 0,
+        "raw_private_ticket_bytes": 32084,
+        "ticket_metadata_bytes": 4526,
+        "unused_tickets": 26
+      },
+      "scenario": "spread removals",
+      "separate_current_reception": {
+        "categories": {
+          "fetch": [
+            4352,
+            45568
+          ],
+          "roster proof": [
+            256,
+            512
+          ]
+        },
+        "download_bytes": 46080,
+        "round_trips": 35,
+        "upload_bytes": 4608
+      },
+      "shard_size": 64,
+      "tickets_per_subset_per_producer": 3,
+      "transition_authors_during_absence": {
+        "download_bytes": 32000,
+        "peak_device_download_bytes": 32000,
+        "peak_device_upload_bytes": 65536,
+        "upload_bytes": 65536
+      },
+      "wraps_per_transition": [
+        10,
+        17
+      ]
+    }
+  ],
+  "cryptography": "ideal NTRU/Falcon/SHAKE/AEAD functionality; no hybrid",
+  "exhaustion": {
+    "direct": {
+      "existing_lane_continued": true,
+      "explicit_online_replenishment_traffic": {
+        "download_bytes": 33152,
+        "peak_device_download_bytes": 33152,
+        "peak_device_upload_bytes": 7936,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 50944
+      },
+      "no_finality_advance_on_exhaustion": true,
+      "offline_holder_not_silently_replenished": true,
+      "transition_succeeded_after_replenishment": true,
+      "wraps_until_exhaustion_including_genesis": [
+        8
+      ]
+    },
+    "shard": {
+      "existing_lane_continued": true,
+      "explicit_online_replenishment_traffic": {
+        "download_bytes": 95616,
+        "peak_device_download_bytes": 44160,
+        "peak_device_upload_bytes": 25600,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 99840
+      },
+      "no_finality_advance_on_exhaustion": true,
+      "offline_holder_not_silently_replenished": true,
+      "transition_succeeded_after_replenishment": true,
+      "wraps_until_exhaustion_including_genesis": [
+        2,
+        8
+      ]
+    },
+    "tree": {
+      "existing_lane_continued": true,
+      "explicit_online_replenishment_traffic": {
+        "download_bytes": 220160,
+        "peak_device_download_bytes": 81408,
+        "peak_device_upload_bytes": 49664,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 206208
+      },
+      "no_finality_advance_on_exhaustion": true,
+      "offline_holder_not_silently_replenished": true,
+      "transition_succeeded_after_replenishment": true,
+      "wraps_until_exhaustion_including_genesis": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  },
+  "limits": [
+    "experimental independent era entries, not the baseline prior-era key schedule",
+    "trusted fresh finality, independent pinned guardian policy, ideal atomic erasure",
+    "cached initial identities/cohort topology; cold enrollment and membership authorization exchange excluded",
+    "all published pool keys, private boxes, wraps, catalogs, hashes, return lookups and proofs are counted",
+    "provisioning is explicitly online for all affected holders; no offline pool replenishment adapter",
+    "retained lookup secret hides control fields from DS but does not hide them from former cohort members",
+    "service observes traffic, routes, sizes, directory shape and requested positions; not PIR",
+    "server cannot decrypt common entries/private pools or see explicit author credentials",
+    "unused tickets expose unread entries on compromise; precompromised inventory does not provide PCS",
+    "no general constant cover size under churn, fixed time-only offline guarantee, or bounded current reception",
+    "storage reports raw ticket secrets, encoded ticket metadata and producer catalogs, not Python heap/disk size",
+    "application traffic counts sender uploads and the selected returning reader, not every member's message downloads",
+    "production crypto CPU, transport overhead, hardware erasure, guardian rotation and formal proof excluded"
+  ],
+  "model_version": "coppice-cover-research-1",
+  "repair": {
+    "direct": {
+      "aggregate_raw_private_bytes_after_rebuild": 32084,
+      "aggregate_raw_private_bytes_before_rebuild": 16042,
+      "devices_remaining": 13,
+      "explicit_rebuild_traffic": {
+        "download_bytes": 56832,
+        "peak_device_download_bytes": 56832,
+        "peak_device_upload_bytes": 10880,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 104576
+      },
+      "old_unused_tickets_retained": true,
+      "requires_explicit_online_provisioning": true,
+      "wraps_after_rebuild": 13,
+      "wraps_before_rebuild": 13
+    },
+    "shard": {
+      "aggregate_raw_private_bytes_after_rebuild": 141910,
+      "aggregate_raw_private_bytes_before_rebuild": 96252,
+      "devices_remaining": 13,
+      "explicit_rebuild_traffic": {
+        "download_bytes": 172544,
+        "peak_device_download_bytes": 72704,
+        "peak_device_upload_bytes": 32640,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-0",
+        "upload_bytes": 189568
+      },
+      "old_unused_tickets_retained": true,
+      "requires_explicit_online_provisioning": true,
+      "wraps_after_rebuild": 4,
+      "wraps_before_rebuild": 10
+    },
+    "tree": {
+      "aggregate_raw_private_bytes_after_rebuild": 476324,
+      "aggregate_raw_private_bytes_before_rebuild": 336882,
+      "devices_remaining": 13,
+      "explicit_rebuild_traffic": {
+        "download_bytes": 558592,
+        "peak_device_download_bytes": 163968,
+        "peak_device_upload_bytes": 58240,
+        "peak_download_device": "device-0",
+        "peak_upload_device": "device-1",
+        "upload_bytes": 452864
+      },
+      "old_unused_tickets_retained": true,
+      "requires_explicit_online_provisioning": true,
+      "wraps_after_rebuild": 1,
+      "wraps_before_rebuild": 7
+    }
+  }
+}

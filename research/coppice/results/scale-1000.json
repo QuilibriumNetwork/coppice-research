@@ -1,0 +1,160 @@
+{
+  "baseline_analytical_subtotals": {
+    "all_lane_and_message_heads": 640000,
+    "all_signing_public_keys": 8970000,
+    "application_frames_download": 1090000,
+    "average_contributor_public_key_download": 135634.176,
+    "average_total_control_upload": 291650.4576,
+    "offline_control_replay_subtotal": 17297280,
+    "own_ticket_publication_upload": 133920,
+    "partial_daily_download": 3696674.176,
+    "private_member_ticket_reserve": 1243872,
+    "recipient_refresh_download": 872640,
+    "sender_update_signatures_download": 1598400,
+    "units": "bytes, decimal MB; daily values unless named otherwise",
+    "unmodeled": [
+      "complete baseline control and privacy envelope formats",
+      "sender-update bodies and variable dependency closure",
+      "history and attachments",
+      "membership churn and fallback traffic",
+      "inventory imbalance and abandonment",
+      "existing IP-hiding transport overhead"
+    ],
+    "workload": {
+      "active_senders": 100,
+      "devices": 10000,
+      "group_events": 144,
+      "messages_read": 1000,
+      "offline_days": 7,
+      "plaintext_bytes": 100,
+      "shard_events": 144,
+      "shards": 128,
+      "updates_per_sender": 24
+    }
+  },
+  "cryptography": "ideal functionality, no hybrid",
+  "frontier_experiment": {
+    "alternating_lanes_consumed_raw_secret_bytes_per_event": 160000,
+    "exceeds_initial_16MiB_budget": true,
+    "excludes": "Python objects, indices, tombstones, metadata siblings and other endpoint state",
+    "lanes": 10000,
+    "one_lane_consumed_raw_secret_bytes_per_event": 448,
+    "projected_fragmented_total_secret_bytes": 691200000,
+    "retained_events": 4320
+  },
+  "history_experiment": {
+    "archive_writer": {
+      "categories": {
+        "publish": [
+          147456,
+          0
+        ]
+      },
+      "download_bytes": 0,
+      "round_trips": 32,
+      "upload_bytes": 147456
+    },
+    "format": "one-message segments with repeated authentication proofs; deliberately unoptimized",
+    "grant_preparer": {
+      "categories": {
+        "publish": [
+          6912,
+          0
+        ]
+      },
+      "download_bytes": 0,
+      "round_trips": 1,
+      "upload_bytes": 6912
+    },
+    "limits": [
+      "recipient grant KEM ticket enrollment is a precondition, not included in these counters",
+      "archive-capability compromise exposes retained history"
+    ],
+    "live_resume_dependency": false,
+    "messages": 32,
+    "new_member_grant_and_history": {
+      "categories": {
+        "fetch": [
+          4224,
+          154240
+        ]
+      },
+      "download_bytes": 154240,
+      "round_trips": 33,
+      "upload_bytes": 4224
+    },
+    "plaintext_bytes_per_message": 100
+  },
+  "model_version": "coppice-research-1",
+  "offline_entry_experiment": {
+    "aggregate_ticket_publication_upload_including_setup": 8448000,
+    "application_sender_upload_during_absence": 73728,
+    "busy_sender_receive_needed_backlog": true,
+    "construction": "EXPERIMENTAL O(n) presealed direct entries, not the baseline shard transition",
+    "days_offline": 7,
+    "devices": 1000,
+    "entry_preparer_ticket_download_during_absence": 5632000,
+    "entry_preparer_upload_during_absence": 14848000,
+    "first_current_send_succeeded": true,
+    "first_message_submission": {
+      "categories": {
+        "publish": [
+          1152,
+          0
+        ]
+      },
+      "download_bytes": 0,
+      "round_trips": 1,
+      "upload_bytes": 1152
+    },
+    "limits": [
+      "fresh trusted-finality service available; fixed independent guardian policy",
+      "entry tickets actually provisioned before absence",
+      "secret entries prepared for every member before using the era",
+      "metadata discovery and cold credential retrieval not included",
+      "actual PQ cryptographic CPU, physical erasure, and external transport not modeled"
+    ],
+    "missed_membership_transitions": 2,
+    "other_participant_actions_needed_at_return": 0,
+    "resume_control": {
+      "categories": {
+        "fetch": [
+          128,
+          7424
+        ],
+        "finality": [
+          128,
+          896
+        ]
+      },
+      "download_bytes": 8320,
+      "round_trips": 2,
+      "upload_bytes": 256
+    },
+    "returning_device_preabsence_entry_ticket_upload": 5632,
+    "returning_device_preabsence_private_ticket_bytes": 2468,
+    "separate_busy_sender_reception": {
+      "categories": {
+        "fetch": [
+          4224,
+          38016
+        ]
+      },
+      "download_bytes": 38016,
+      "round_trips": 33,
+      "upload_bytes": 4224
+    },
+    "server_ciphertext_and_selector_bytes": 29981017,
+    "under_64000_byte_control_target": true,
+    "unread_intermediate_entry_tickets_remaining": 1,
+    "virtual_return_time_seconds": 604800
+  },
+  "split_view_experiment": {
+    "bounded_detection_during_permanent_partition": false,
+    "evidence_after_view_exchange": 1,
+    "evidence_during_partition": [
+      0,
+      0
+    ]
+  }
+}
